@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.3)
+project(program7)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(SOURCE_FILES deque.cpp.h deque.h driver.cpp longint.cpp longint.h)
+add_executable(program7 ${SOURCE_FILES})
